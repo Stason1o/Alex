@@ -11,6 +11,6 @@ import java.time.LocalDateTime;
  */
 public class MyJob implements Job {
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println("Cron job is running every 60 secs: " + LocalDateTime.now());
+        System.out.println("Cron job MyJob is running every 60 secs: " + LocalDateTime.now());
     }
 }
